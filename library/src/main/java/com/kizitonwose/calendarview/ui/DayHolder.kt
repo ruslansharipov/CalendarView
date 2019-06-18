@@ -1,11 +1,11 @@
 package com.kizitonwose.calendarview.ui
 
+import android.support.annotation.LayoutRes
+import android.support.annotation.Px
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.LinearLayout
-import androidx.annotation.LayoutRes
-import androidx.annotation.Px
 import com.kizitonwose.calendarview.model.CalendarDay
 import com.kizitonwose.calendarview.utils.inflate
 

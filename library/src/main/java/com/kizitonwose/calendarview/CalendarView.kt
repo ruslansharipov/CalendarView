@@ -1,13 +1,13 @@
 package com.kizitonwose.calendarview
 
 import android.content.Context
+import android.support.annotation.LayoutRes
+import android.support.annotation.Px
+import android.support.v7.widget.PagerSnapHelper
+import android.support.v7.widget.RecyclerView
 import android.util.AttributeSet
 import android.view.View
 import android.view.View.MeasureSpec.UNSPECIFIED
-import androidx.annotation.LayoutRes
-import androidx.annotation.Px
-import androidx.recyclerview.widget.PagerSnapHelper
-import androidx.recyclerview.widget.RecyclerView
 import com.jakewharton.threetenabp.AndroidThreeTen
 import com.kizitonwose.calendarview.model.*
 import com.kizitonwose.calendarview.ui.*
