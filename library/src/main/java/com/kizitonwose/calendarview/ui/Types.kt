@@ -15,5 +15,3 @@ interface MonthHeaderFooterBinder<T : ViewContainer> {
     fun create(view: View): T
     fun bind(container: T, month: CalendarMonth)
 }
-
-typealias MonthScrollListener = (CalendarMonth) -> Unit
